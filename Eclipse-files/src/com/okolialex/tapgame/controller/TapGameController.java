@@ -1,5 +1,6 @@
 package com.okolialex.tapgame.controller;
 
+/*Mac Version*/
 // TODO Implement difficulty levels.
 // TODO Think about Facade. Solely for controller? Separate Facades for diff clients?
 // TODO Break world down into smaller interfaces - World (container), Cell, Engine? (start-stop) etc...
