@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.okolialex.tapgame.android">
+
+      <!-- INSERT SOME BACKGROUND
+  <com.example.android.snake.BackgroundView
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:colorSegmentOne="@color/muted_red"
+    app:colorSegmentTwo="@color/muted_yellow"
+    app:colorSegmentThree="@color/muted_blue"
+    app:colorSegmentFour="@color/muted_green"
+     />
+     -->
+ 
+  <com.okolialex.tapgame.view.TapGameView
+    android:id="@+id/gamegrid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:tileSize="50dp" />
+  
+  <TextView android:id="@+id/user_prompt_HUD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="24sp"
+    android:visibility="visible" />
+  
+  <TextView android:id="@+id/score_HUD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:textColor="@color/black"
+    android:textSize="12sp"
+    android:visibility="visible" />
+  
+   <TextView android:id="@+id/time_HUD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:textColor="@color/black"
+    android:textSize="12sp"
+    android:visibility="visible" />
+  
+  
+ 
+</merge>
+
+
+
